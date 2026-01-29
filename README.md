@@ -34,3 +34,6 @@ One of the bandwidth-rating combinations with the covariate included a zero, whi
 2. Download listings.csv and calendar.csv from this [site](https://insideairbnb.com/get-the-data/)
 3. Add both csv files to the data/raw directory.
 4. Run the 01_analysis.pynb in the notebooks directory
+
+# File Guide
+Utilize this [data dictionary](https://docs.google.com/spreadsheets/d/1iWCNJcSutYqpULSQHlNyGInUvHg2BoUGoNRIGa6Szc4/edit?gid=1322284596#gid=1322284596) for detailed attributes on the raw data
