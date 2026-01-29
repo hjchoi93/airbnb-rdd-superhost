@@ -6,6 +6,12 @@ The goal was to test multiple rating-bandwidth combinations along with testing a
 
 ![Rating - 4.8](figures/rdd_outcome_bandwidths_4.8.png)
 
+![Rating - 4.75](figures/rdd_outcome_bandwidths_4.75.png)
+
+![Rating - 4.85](figures/rdd_outcome_bandwidths_4.85.png)
+
+![Minimum Nights - Covariate](figures/rdd_outcome_bandwidths_min_nights.png)
+
 
 # Approach
 Regression Discontinuity Design:
