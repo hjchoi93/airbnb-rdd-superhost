@@ -1,5 +1,6 @@
 # Regression Discontinuity Analysis 
-The analysis shows whether or not hosts who possess a specific rating or higher can cause bookings to significantly increase if that threshold is met. We compare the occupancy rate below and above the cutoff to verify if a statistically significant jump occurs at the chosen rating. This can provide meaningful insights to both the business and the hosts. If a statistically significant jump is proven, the business can incentivize hosts to achieve that rating to bring in more bookings. The hosts can make improvements to their rental and their service to eventually achieve that rating; being assured that rating will lead to significantly higher bookings than they otherwise would have. 
+
+The goal was to test multiple 
 
 
 
