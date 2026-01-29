@@ -1,7 +1,10 @@
 # Regression Discontinuity Analysis 
 
-The goal was to test multiple 
+The goal was to test multiple rating-bandwidth combinations along with testing a covariate to ensure there is no potential bias of the treatment variable (occupancy rate). 
 
+## Here are the RDD plots for all combinations:
+
+![Rating - 4.8](figures/rdd_outcome_bandwidths_4.8.png)
 
 
 # Approach
