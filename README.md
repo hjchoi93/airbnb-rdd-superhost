@@ -7,4 +7,15 @@ The analysis shows whether or not hosts who possess a specific rating or higher 
 # Data
 Data is acquired from Inside Airbnb - a nonprofit dedicated to collecting comprehensive rental data across many cities worldwide. 
 * listings.csv - detailed information on each listing such as host information, availability, and attributes of the residence
-* calendar.csv - records the price, availability and other details from the listing's calendar for each day of the next 365 days			
+* calendar.csv - records the price, availability and other details from the listing's calendar for each day of the next 365 days
+
+# Method
+Regression Discontinuity Design:
+* Method to estimate a cause-and-effect relationship when a decision is made by a hard cutoff (host rating)
+* The method is credible because it's a near-random experiment right at the boundary.
+* The two groups below and above the cutoff are comparable - like treatment vs control
+
+## Key result: RDD estimate around 4.8 cutoff
+
+![RDD plot](reports/figures/rdd_outcome_bandwidths_4.8.png)
+
