@@ -24,7 +24,7 @@ We calculate the occupancy rate of listings that have enough calendar coverage (
 # Robustness & Validity Checks
 We test three bandwidths (0.1, 0.05, 0.02) and also produce the corresponding confidence intervals. 
 We also tested multiple cutoff ratings (4.75 & 4.85) with the same bandwidths. Finally, we used a different covariate from the data called minimum_nights. This variable conveys the minimum number of nights a listing is available. This test was done to ensure other listing characteristics do not change abruptly at cutoff. In a good RDD, only the treatment assignment changes sharply at the cutoff; everything else should look smooth.
-The confidence intervals for every bandwidth-rating combination included zero. **This means we don't have strong enough statistical evidence to rule out no jump/discontinuity.** 
+The confidence intervals for every bandwidth-rating combination included zero. This means we don't have strong enough statistical evidence to rule out no jump/discontinuity. **In other words, there is not strong enough statistical evidence that the cutoff rating at 4.8 causes a significant increase in bookings.**
 
 # Limitations
 One of the bandwidth-rating combinations with the covariate included a zero, which means there is evidence of discontinuity. If one of the covariates has a discontinuity, the estimated treatment effect for the actual outcome (occupancy rate) may be biased. 
