@@ -19,3 +19,10 @@ For the minimum nights covariate analysis, the bandwidth at 0.2 does not include
 * sample selection/filtering that changes the composition right at the cutoff, or
 * the running variable is heaped/discrete in a way that breaks the “local randomization” intuition.
 
+# Next Steps
+To mitigate this bias, here are some potential next steps to consider:
+* Check density / heaping near the cutoff (often the root cause)
+* Try a smaller bandwidth and re-run balance
+* Add a more flexible functional form (quadratic) as a robustness check
+* Consider pivoting methods if the running variable is too discrete (matching/IPW/DiD)
+
